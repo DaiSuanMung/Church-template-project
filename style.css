@@ -1,0 +1,197 @@
+
+*, html {
+    margin:0 auto;
+    padding:0;  
+}
+body{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:0 auto;
+    background:whitesmoke;
+    width: 90%;
+  }
+header{
+    height:130px;
+    background:brown;   
+}
+h1{
+    color:rgb(252, 252, 252);
+    padding:40px;
+
+}
+h2{
+    text-align: center;
+    background:white;
+    width:700px;
+    padding:10px;
+    margin-top:350;
+    font-size: 3rem;
+}
+h2:hover{
+    background:black;
+    color:white;
+}
+h3{
+    text-align:center;
+    font-size: 36px;
+    padding:40px;
+}
+h4{
+    padding:15px;
+    text-align:center;
+    text-transform: uppercase;
+}
+nav{
+    margin:0 auto;
+    position:fixed;
+    width:100%;
+}
+ul{
+    height:50px;
+    width:800px;
+    background:white;
+    text-align: center;
+    margin:0 auto;
+    margin-top:-30px;
+    padding-top:25px;
+    border-radius: 10px 0;
+}
+ul li{
+    padding:10px;
+    list-style: none;
+    display: inline;
+    
+}
+ul li a{
+   text-transform: uppercase;
+    text-decoration: none;
+}
+ul li:hover{
+    padding:30px;
+    background-color:peru;
+}
+img{
+    margin-top: -20px;
+    position: relative;
+    width:100%;
+    z-index: -1;
+   
+}
+p{
+    padding:10px;
+    text-align: center;
+}
+
+.welcome{
+    padding:70px;
+    background:white;
+    
+}
+article{
+    padding:30px;
+    text-align: center;
+    font-size: 18px;
+    
+
+}
+
+
+.formContainer{
+    outline: 1px dotted #ff0000;
+    margin-top:50px;
+    height:800px;
+    align-content: center;
+} 
+    
+
+.form{
+    width:500px;
+    line-height: 20px;
+    background:white;
+    outline: 1px dotted blue;
+    margin-top:50px;
+    margin:0 auto;
+    padding:50px;
+    height:500px;
+}
+input[type=text], [type=email], [type=email], [type=password] {
+    width: 100%;
+    box-sizing: border-box;
+    padding:12px;
+  }
+input [type=submit]{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .submit{
+      margin:0 auto;
+      display:block;
+  }
+  .row{
+      display: flex;
+     flex-wrap: wrap;
+     
+  }
+  .column{
+      margin:0px;
+      width: 25%;
+      overflow:auto;
+  }
+  .column:hover{
+      opacity:0.2;
+      
+  }
+  .article{
+      display:flex;
+      padding:30px;
+      background: white;
+      padding-bottom:0px;
+  }
+span{
+    padding:10px;
+    
+    text-align: justify;
+}
+.videoCon{
+    display:flex;
+    margin:0 auto;
+    flex-wrap: wrap;
+}
+.video{
+    margin-top:20px;
+    box-shadow: 0 4px 10px 0 grey;
+    background:white;
+    color:firebrick;
+    width:24%;
+    padding:5px;
+}
+.btn {
+    background:black;
+    margin-right:20px;
+    margin-top:20px;
+    border-style: none;
+    padding:15px;
+    float:right;
+    color:white;
+}
+h5{
+padding-left:40px;
+}
+.footerCon{
+    display: flex;
+    background:black;
+    color:white;
+    width:100%;
+}
+.footer{
+    outline: 1px dotted  #4CAF50;
+    flex-grow: 4 4 2;
+}
+.sb{
+    margin-right: 20px;
+float:right;
+}
